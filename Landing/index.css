@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)),
+    url("image/hall6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar {
+  width: 100%;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 60px;
+}
+
+.logo {
+  font-size: 35px;
+  color: #3f650a;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.logo1 {
+  position: absolute;
+  top: 50px;
+  font-family: "Raleway", sans-serif;
+}
+
+.nav-menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-menu ul li {
+  list-style: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.nav-menu ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #3f650a;
+  padding: 12px;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+}
+
+.nav-menu ul li :hover {
+  background-color: whitesmoke;
+  transition: 0.5s ease;
+}
+
+.toggle-btn {
+  position: absolute;
+  top: 28px;
+  right: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 22px;
+  width: 32px;
+}
+
+.toggle-btn .bar {
+  height: 4px;
+  width: 80%;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+/* .content-section {
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 0 60px;
+} */
+
+.content-section h1 {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.content p {
+  position: absolute;
+  top: 28%;
+  left: 33%;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  text-align: center;
+}
+
+.button a {
+  text-decoration: none;
+  font-size: 17px;
+  color: #3f650a;
+  display: inline-block;
+  background-color: whitesmoke;
+  padding: 12px 18px;
+  letter-spacing: 1.5px;
+  position: absolute;
+  text-transform: uppercase;
+  top: 38%;
+  left: 45%;
+  font-family: "Raleway", sans-serif;
+}
+
+.button a:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  transition: 0.3s;
+}
+
+.benefit {
+  position: absolute;
+  top: 900px;
+  left: 300px;
+  color: whitesmoke;
+}
+
+.benefit2 {
+  position: absolute;
+  top: 900px;
+  left: 800px;
+  color: whitesmoke;
+}
+
+.benefit3 {
+  position: absolute;
+  top: 900px;
+  left: 1300px;
+  color: whitesmoke;
+}
+
+#one {
+  font-size: 25px;
+  text-align: center;
+}
+
+#two {
+  font-size: 25px;
+  text-align: center;
+}
+
+#three {
+  font-size: 25px;
+  text-align: center;
+}
+
+.section2 {
+  width: 1730px;
+  height: 500px;
+  background-color: rgb(0, 0, 0);
+}
+
+#tag {
+  color: whitesmoke;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.social {
+  position: absolute;
+  top: 1150px;
+  left: 800px;
+}
+
+.one {
+  margin: auto 15px;
+  cursor: pointer;
+}
+
+.two {
+  margin: auto 15px;
+  cursor: pointer;
+}
+
+.three {
+  margin: auto 15px;
+  cursor: pointer;
+}
+
+footer {
+  font-size: 12px;
+  position: absolute;
+  top: 1310px;
+  color: whitesmoke;
+}
